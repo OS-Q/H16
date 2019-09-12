@@ -19,7 +19,7 @@
   ],
   "frameworks": {
     "wiringpi": {
-      "package": "framework-wiringpi",
+      "package": "framework-N32",
       "script": "builder/frameworks/wiringpi.py"
     }
   },
@@ -28,10 +28,10 @@
       "type": "toolchain",
       "version": "~1.40802.0"
     },
-    "framework-wiringpi": {
+    "framework-N32": {
       "type": "framework",
       "optional": true,
-      "version": "~1.242.0"
+      "version": "https://github.com/OS-Q/N32.git"
     }
   }
 }
