@@ -1,0 +1,37 @@
+{
+  "name": "H16",
+  "title": "H16",
+  "description": "Linux ARM运行平台",
+  "url": "http://platformio.org/platforms/linux_arm",
+  "homepage": "https://github.com/OS-Q/H16",
+  "license": " ",
+  "engines": {
+    "platformio": "<5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OS-Q/H16.git"
+  },
+  "version": "1.0.0",
+  "packageRepositories": [
+    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+    "http://dl.platformio.org/packages/manifest.json"
+  ],
+  "frameworks": {
+    "wiringpi": {
+      "package": "framework-wiringpi",
+      "script": "builder/frameworks/wiringpi.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmlinuxgnueabi": {
+      "type": "toolchain",
+      "version": "~1.40802.0"
+    },
+    "framework-wiringpi": {
+      "type": "framework",
+      "optional": true,
+      "version": "~1.242.0"
+    }
+  }
+}
