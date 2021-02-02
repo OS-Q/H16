@@ -1,37 +1,43 @@
 {
-  "name": "H16",
-  "title": "H16",
-  "description": "Linux ARM运行平台",
-  "url": "http://platformio.org/platforms/linux_arm",
-  "homepage": "https://github.com/OS-Q/H16",
-  "license": " ",
+  "name": "P23",
+  "title": "Platform P23",
+  "description": "Linux ARM is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution. Using host OS (Mac OS X, Linux ARM) you can build native application for Linux ARM platform.",
+  "homepage": "http://platformio.org/platforms/linux_arm",
+  "license": "Apache-2.0",
+  "keywords": [
+    "OS-Q",
+    "dev-platform",
+    "Linux",
+    "ARM"
+  ],
   "engines": {
-    "platformio": "<5"
+    "platformio": "^5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OS-Q/H16.git"
+    "url": "https://github.com/OS-Q/P23.git"
   },
-  "version": "1.0.0",
-  "packageRepositories": [
-    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-    "http://dl.platformio.org/packages/manifest.json"
-  ],
+  "version": "1.5.1",
   "frameworks": {
     "wiringpi": {
-      "package": "framework-N32",
-      "script": "builder/frameworks/wiringpi.py"
+      "package": "framework-wiringpi",
+      "script": "builder/frameworks/wiringpi.py",
+      "description": "WiringPi is a GPIO access library written in C for the BCM2835 used in the Raspberry Pi. It's designed to be familiar to people who have used the Arduino 'wiring' system",
+      "url": "http://wiringpi.com",
+      "title": "WiringPi"
     }
   },
   "packages": {
     "toolchain-gccarmlinuxgnueabi": {
       "type": "toolchain",
+      "owner": "platformio",
       "version": "~1.40802.0"
     },
-    "framework-N32": {
+    "framework-wiringpi": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/OS-Q/N32.git"
+      "owner": "platformio",
+      "version": "~1.242.0"
     }
   }
 }

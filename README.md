@@ -1,14 +1,10 @@
-﻿# [Platform H16](https://github.com/OS-Q/H16)
+# [Platform P23](https://github.com/OS-Q/P23)
 
-[![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
+[![Build Status](https://github.com/OS-Q/P23/workflows/P23/badge.svg)](https://github.com/OS-Q/P23/actions)
 
-#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+### [Platform描述](https://github.com/OS-Q/P23/wiki)
 
-[EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> N[60] -> S[60]
+[Platform P23](https://github.com/OS-Q/P23) 基于[PlatformIO](https://github.com/platformio/platformio-core)开发框架
 
-### [Platform描述](https://github.com/OS-Q/H16/wiki) 
 
-[Platform H16](https://github.com/OS-Q/H16)基于PlatformIO开发平台
-
-### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/H16)
-####  2019-9-12
+### [Q = (OpenSource & OperatingSystem) ](http://www.OS-Q.com)

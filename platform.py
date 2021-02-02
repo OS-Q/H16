@@ -1,8 +1,9 @@
+
 from platformio import exception, util
 from platformio.managers.platform import PlatformBase
 
 
-class H16Platform(PlatformBase):
+class P23Platform(PlatformBase):
 
     @staticmethod
     def _is_native():
@@ -18,11 +19,11 @@ class H16Platform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         if not self._is_native() and "wiringpi" in variables.get(
-                "pioframework"):
+                "pioframework", []):
             raise exception.PlatformioException(
                 "PlatformIO temporary does not support cross-compilation "
                 "for WiringPi framework. Please use PIO Core directly on "
                 "Raspberry Pi")
 
         return PlatformBase.configure_default_packages(self, variables,
-                                                       targets)
+                                                        targets)
