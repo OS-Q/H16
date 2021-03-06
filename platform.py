@@ -3,7 +3,7 @@ from platformio import exception, util
 from platformio.managers.platform import PlatformBase
 
 
-class P23Platform(PlatformBase):
+class P81Platform(PlatformBase):
 
     @staticmethod
     def _is_native():
