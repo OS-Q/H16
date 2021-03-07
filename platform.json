@@ -10,6 +10,7 @@
     "Linux",
     "ARM"
   ],
+  "version": "1.5.1",
   "engines": {
     "platformio": "^5"
   },
@@ -17,10 +18,9 @@
     "type": "git",
     "url": "https://github.com/OS-Q/P81.git"
   },
-  "version": "1.5.1",
   "frameworks": {
     "wiringpi": {
-      "package": "framework-wiringpi",
+      "package": "N81",
       "script": "builder/frameworks/wiringpi.py",
       "description": "WiringPi is a GPIO access library written in C for the BCM2835 used in the Raspberry Pi. It's designed to be familiar to people who have used the Arduino 'wiring' system",
       "url": "http://wiringpi.com",
@@ -33,7 +33,7 @@
       "owner": "platformio",
       "version": "~1.40802.0"
     },
-    "framework-wiringpi": {
+    "N81": {
       "type": "framework",
       "optional": true,
       "owner": "platformio",
