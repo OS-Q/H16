@@ -36,8 +36,7 @@
     "N81": {
       "type": "framework",
       "optional": true,
-      "owner": "platformio",
-      "version": "~1.242.0"
+      "version": "https://github.com/OS-Q/N81.git"
     }
   }
 }
