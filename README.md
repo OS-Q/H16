@@ -9,4 +9,4 @@
 
 [P81](https://github.com/OS-Q/P81) 用于构建 Raspbian 应用
 
-### [Q = (OpenSource & OperatingSystem) ](http://www.OS-Q.com)
+### [源圈 OS-Q (Open Source & QA) ](http://www.OS-Q.com)
