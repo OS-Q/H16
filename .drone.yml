@@ -1,0 +1,15 @@
+kind: pipeline
+name: default
+
+steps:
+- name: raspbian
+  image: raspbian/stretch
+  commands:
+  - apt update
+  - apt install -y git python3 python3-pip python3-dev
+  - git submodule update --init --recursive
+  - pip3 install -U https://github.com/platformio/platformio/archive/develop.zip
+  - platformio platform install file://.
+  - platformio run -d examples/wiringpi-blink
+  - platformio run -d examples/wiringpi-serial
+  - platformio run -d examples/blink

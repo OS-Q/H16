@@ -1,6 +1,6 @@
 {
   "name": "P81",
-  "title": "Platform P81",
+  "title": "Platform P81 (Pi)",
   "description": "Linux ARM is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution. Using host OS (Mac OS X, Linux ARM) you can build native application for Linux ARM platform.",
   "homepage": "http://platformio.org/platforms/linux_arm",
   "license": "Apache-2.0",
@@ -21,10 +21,7 @@
   "frameworks": {
     "wiringpi": {
       "package": "N81",
-      "script": "builder/frameworks/wiringpi.py",
-      "description": "WiringPi is a GPIO access library written in C for the BCM2835 used in the Raspberry Pi. It's designed to be familiar to people who have used the Arduino 'wiring' system",
-      "url": "http://wiringpi.com",
-      "title": "WiringPi"
+      "script": "builder/frameworks/wiringpi.py"
     }
   },
   "packages": {
